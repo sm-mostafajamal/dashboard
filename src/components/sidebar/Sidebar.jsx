@@ -22,54 +22,64 @@ const Sidebar = () => {
       <hr />
       <div className="center">
         <ul>
+          <p className="title">MAIN</p>
           <li>
-            <Dashboard />
+            <Dashboard className="icon" />
             <span>Dashboard</span>
           </li>
+          <p className="title">LISTS</p>
+
           <li>
-            <PeopleAltOutlined />
+            <PeopleAltOutlined className="icon" />
             <span>Users</span>
           </li>
           <li>
-            <Inventory2Outlined />
+            <Inventory2Outlined className="icon" />
             <span>Products</span>
           </li>
           <li>
-            <CreditCardOutlined />
+            <CreditCardOutlined className="icon" />
             <span>Orders</span>
           </li>
           <li>
-            <DeliveryDiningOutlined />
+            <DeliveryDiningOutlined className="icon" />
             <span>Delivery</span>
           </li>
+          <p className="title">USEFUL</p>
           <li>
-            <ShowChart />
+            <ShowChart className="icon" />
             <span>Stats</span>
           </li>
           <li>
-            <CircleNotificationsOutlined />
+            <CircleNotificationsOutlined className="icon" />
             {/* <NotificationsOutlinedIcon /> */}
             <span>Notifications</span>
           </li>
+          <p className="title">SERVICE</p>
+
           <li>
-            <MonitorHeartOutlined />
+            <MonitorHeartOutlined className="icon" />
             <span>System Health</span>
           </li>
           <li>
-            <SettingsOutlined />
+            <SettingsOutlined className="icon" />
             <span>Settings</span>
           </li>
+          <p className="title">USER</p>
           <li>
-            <AccountBoxOutlined />
+            <AccountBoxOutlined className="icon" />
             <span>Profile</span>
           </li>
           <li>
-            <LogoutOutlined />
+            <LogoutOutlined className="icon" />
             <span>Logout</span>
           </li>
         </ul>
       </div>
-      <div className="bottom">color</div>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
