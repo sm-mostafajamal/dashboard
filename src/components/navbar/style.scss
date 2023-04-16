@@ -21,6 +21,8 @@
       input {
         border: none;
         outline: none;
+        color: #8e8d8a;
+
         background-color: transparent;
         &::placeholder {
           font-size: 12px;
@@ -37,6 +39,7 @@
         position: relative;
         .icon {
           font-size: 20px;
+          cursor: pointer;
         }
         .profile {
           width: 30px;
