@@ -1,4 +1,4 @@
 Sass
 circular progressbar
 Recharts
-MUI => Table, datagrid/data table
+MUI => Table, datagrid/data - table
